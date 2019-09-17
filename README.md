@@ -2,11 +2,9 @@
 
 [Mail group](https://groups.google.com/forum/#!forum/fsmvu-mae/join): for communication and assignments
 
-[Repository](https://github.com/maeyler/BLM305/): weekly work & term project
+[Repository](https://github.com/maeyler/305/): weekly work & term project
 
 [Examples](https://maeyler.github.io/JS/): sample JavaScript pages
-
-[Class work](https://maeyler.github.io/BLM305/inspect.html): using the Inspector
 
 [Eloquent JavaScript](http://eloquentjavascript.net/): our textbook
 

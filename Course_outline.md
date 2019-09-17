@@ -11,9 +11,9 @@
 | 7    | Midterm               |      |           |
 | 8    | CSS Animations        | 14   | [Animation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API)   |
 | 9    | Document Object Model | 14   | [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)         |
-| 10   | Drawing on Canvas     | 17   | [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)      |
-| 11   | Image Processing      |      | [Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)   |
-| 12   | Pixel Art Editor      | 19   | [ImageData](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas)   |
+| 10   | External API: Weather |      | [OpenWeather](https://api.openweathermap.org)   |
+| 11   | Drawing on Canvas     | 17   | [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)      |
+| 12   | Image Processing      |      | [Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)   |
 | 13   | External API: Maps    |      | [Google Maps](https://developers.google.com/maps/documentation/javascript/controls) |
 | 14   | Term Project          |      |           |
 | 15   | Final                 |      |           |
@@ -22,8 +22,8 @@
 **Links**
 
 * [Eloquent JavaScript](http://eloquentjavascript.net/): our textbook
-* [GitHub repo](https://github.com/maeyler/BLM305/): programmer view
-* [GitHub docs](https://maeyler.github.io/BLM305/): public view
+* [GitHub repo](https://github.com/maeyler/305/): programmer view
+* [GitHub docs](https://maeyler.github.io/305/): public view
 
 
 **Grading**
