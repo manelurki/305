@@ -2,7 +2,7 @@
 
 | Week | Topic                 | Chap | API         |
 |------|-----------------------|------|-------------|
-| 1    | Numbers and Strings   | 1, 2 | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  |
+| 1    | [First week](https://maeyler.github.io/305/work/First%20Week)   | 1, 2 | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  |
 | 2    | Arrays and Functions  | 3    | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)    |
 | 3    | Objects – Inspector   | 4    | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)  |
 | 4    | Keyed Collections     | 6    | [Set & Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Keyed_collections)   |
