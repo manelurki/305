@@ -24,6 +24,7 @@
 * [Eloquent JavaScript](http://eloquentjavascript.net/): our textbook
 * [GitHub repo](https://github.com/maeyler/305/): programmer view
 * [GitHub docs](https://maeyler.github.io/305/): public view
+* [Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vTSP1Wdj200raopeWBhRZh3_OYUUEO5G3TVzAZ3ouH2rp3VvGxrzJqkuDLAyJDM3X_7KyOhnHqrgN-7/pubhtml)
 
 
 **Grading**
