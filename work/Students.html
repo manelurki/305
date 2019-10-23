@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="../images/icon192.png">
     <title>Student Database </title>
 
   <style>
@@ -82,8 +83,8 @@ function parseStudent(line) {
     let [id, name, gpa, ...list] = line.split("\t");
   /*let id = b[0], name = b[1], gpa = b[2];
     let list = [];
-    for (let i=3; i<b.length; i++) 
-        list.push(b[i]); */
+    for (let i=3; i<b.length; i++) list.push(b[i]);
+  */
     return {id, name, gpa, list};
 }
 function addStudents(txt) {
@@ -99,7 +100,6 @@ function addStudents(txt) {
 function doClick(evt) {
     //console.log(evt);
     let t = evt.target;
-    //document.elementFromPoint(evt.clientX, evt.clientY);
     let s = t.innerText;
     if (/^\d+$/.test(s)) showStd(s); //s contains digits
     else if (t = t.firstElementChild) {
