@@ -25,7 +25,7 @@ fetch() ile gelen Response nesnesini kopyalayıp birinin text(), diğerinin json
 
 ### Local Text
 
-Yerel dosyaları okumak için FileReader gerekiyor. Yukarıda verilen URL'yi açıp bir kopyasını masa üstüne alalım. "Choose Files" ile bu dosyayı seçelim. FileReader içinde result olarak aynı metine erişebiliriz. Metin seçili iken vereceğimiz `JSON.parse(_)` komutu ile metini nesneye çeviribiliriz.
+Yerel dosyaları okumak için FileReader gerekiyor. Yukarıda verilen URL'yi açıp bir kopyasını masa üstüne alalım. "Choose Files" ile bu dosyayı seçelim. FileReader içinde result olarak aynı metine erişebiliriz. Metin seçili iken vereceğimiz `JSON.parse(_)` komutu ile metini nesneye çevirebiliriz.
 
 ### Local Image
 
