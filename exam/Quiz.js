@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="icon" href="../images/icon192.png">
-    <title>Quiz Solution </title>
-</head>
-
-<body>
-
-<h2>2019 Quiz Solution</h2>
-<img src="Quiz1.p1.jpg">
-<img src="Quiz1.p2.jpg">
-<hr />
-
-<h2>2018 Quiz Solution</h2>
-<pre id=out1></pre>
-<img src="diagram.png" width="400px">
-<pre id=out2></pre>
-<hr />
-
-<script>
-"use strict";
 class Author {
     constructor(n, b) {
         this.name = n
@@ -49,21 +25,30 @@ class Book {
     }
 }
 
-function solution() {
+class Quiz extends Menu {
+  constructor() {
+    super();
+    let a = this.solution(); 
+    this.rumi = a
+    this.mesnevi = a.books[0]
+    this.divan = a.books[1]
+    this.data = a.books.concat(a.books)
+  }
+  solution() {
     let a = new Author("Rumi", 1273)
     a.addBook(new Book("Mesnevi", 180))
     a.addBook(new Book("Divan", 350))
     return a
-}
-function morePagesThan(num=100) {
+  }
+  morePagesThan(num=100) {
     let s = new Set()
-    for (let b of data)
+    for (let b of this.data)
       if (b.pages > num) s.add(b);
     return s
-}
-function convertToMap() {
+  }
+  convertToMap() {
     let m = new Map();
-    for (let b of data) {
+    for (let b of this.data) {
       let n = m.get(b.author.name)
       if (!n) { //not found
         n = new Set()
@@ -72,29 +57,21 @@ function convertToMap() {
       n.add(b)
     }
     return m
-}
-function report(num=100) {
-    let c = data.length
+  }
+  report(num=100) {
+    let c = this.data.length
     if (!c) return ""
-    let t = rumi+"\n"
+    let t = this.rumi+"\n"
     t += "\n• Start with "+c+" books:\n"
-    for (let b of data) t += b+"\n"
+    for (let b of this.data) t += b+"\n"
     t += "\n• morePagesThan("+num+"):\n"
-    for (let b of morePagesThan(num)) 
+    for (let b of this.morePagesThan(num)) 
       t += b+"\n"
     t += "\n• convertToMap():\n"
-    let m = convertToMap()
+    let m = this.convertToMap()
     for (let k of m.keys()) 
       t += k+" -- "+m.get(k).size+" books\n"
     return t
+  }
 }
 
-    var rumi = solution(); 
-    var data = rumi.books.concat(rumi.books)
-    out1.innerText = Author+"\n"+Book
-    out2.innerText = solution+"\n\n"+morePagesThan+
-       "\n\n"+convertToMap+"\n\n"+report(200)
-</script>
-
-</body>
-</html>
