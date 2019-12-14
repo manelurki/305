@@ -12,7 +12,7 @@
 | 8    | [CSS Animations](work/Timing.html)         | 14   | [Animation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API)|
 | 9    | Document Object Model                      | 14   | [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)  |
 | 10   | External API: [Weather](work/Weather.html) |      | [OpenWeather](https://api.openweathermap.org)  |
-| 11   | [Graphics](work/Graphics.html), Quiz       | 17   | [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)  |
+| 11   | [Graphics](work/Graphics), [Quiz](exam/Quiz2) | 17 | [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)  |
 | 12   | External API: Maps    |      | [Google Maps](https://developers.google.com/maps/documentation/javascript/controls) |
 | 13   | Image Processing      |      | [Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)   |
 | 14   | Term Project          |      |           |
