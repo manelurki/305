@@ -15,7 +15,7 @@
       font-weight: bold;
     }
     pre { 
-      font: 13px mono;
+      font: 13px monospace;
       color: blue; 
       margin-top: 10px; 
       margin-bottom: 20px; 
@@ -42,7 +42,7 @@ x, y scale of e from normal to twice as large
 
 b) Draw an object diagram for b.
 <pre id=p2>
-(bunu sadece iki kişi tam yaptı, onlardan öğrenin artık)
+(bunu sadece iki kişi tam yaptı: Emine ve Elanur)
 </pre>
 
 c) Write down the type and the value of   b.transform[0] 
@@ -84,7 +84,8 @@ m.get('color')[1]
 "use strict";
 e.innerText = document.title
 var b = { color:['black', 'pink'], transform:['scale(1)', 'scale(2)']}
-e.animate(b, 1500)
+document.onclick = (evt) => { evt.target.animate(b, 1500) }
+e.click()
 </script>
 
 </body>

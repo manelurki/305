@@ -1,6 +1,6 @@
 ﻿## Advanced Programming
 
-[Mail group](https://groups.google.com/forum/#!forum/fsmvu-mae/join): for communication and assignments
+[Term Project](projects.html): for each student
 
 [Repository](https://github.com/maeyler/305/): weekly work & term project
 

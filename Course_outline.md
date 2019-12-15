@@ -13,9 +13,9 @@
 | 9    | Document Object Model                      | 14   | [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)  |
 | 10   | External API: [Weather](work/Weather.html) |      | [OpenWeather](https://api.openweathermap.org)  |
 | 11   | [Graphics](work/Graphics), [Quiz](exam/Quiz2) | 17 | [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)  |
-| 12   | External API: Maps    |      | [Google Maps](https://developers.google.com/maps/documentation/javascript/controls) |
+| 12   | Speech & [Maps](https://maeyler.github.io/JS/canvas/mapboxgl.html)    |      | [mapbox](https://docs.mapbox.com/mapbox-gl-js/api/) |
 | 13   | Image Processing      |      | [Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)   |
-| 14   | Term Project          |      |           |
+| 14   | [Term Project](projects.html)          |      |           |
 | 15   | Final                 |      |           |
 
 
