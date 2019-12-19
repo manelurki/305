@@ -142,3 +142,28 @@ const JOURNAL = [
 
 journalEvents()  //determine the set of events
 
+class Chap4 extends Menu {
+  constructor() {
+    super();
+    this.s = "Small is beautiful";
+    this.d = new Date(),
+    this.a = a; this.c = c; //global
+    this.window = window;
+    this.JOURNAL = JOURNAL;
+    this.EVENTS = EVENTS;
+  }
+  correlation(evt) { 
+    return phi(window.tableFor(evt)) 
+  }
+  analyze(val) {
+    return window.analyze(val)
+  }
+  tableFor(evt) {
+    return window.tableFor(evt)
+  }
+  pointOnCircle(radius=1) {
+    let angle = Math.random() * 2 * Math.PI;
+    return {x: radius * Math.cos(angle),
+            y: radius * Math.sin(angle)};
+  }
+}
